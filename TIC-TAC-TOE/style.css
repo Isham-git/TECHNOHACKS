@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Sedan+SC&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+nav {
+  background-color: black;
+  color: #cad9e6;
+  font-size: 50px;
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  font-family: "Lora", serif;
+  height: 70px;
+}
+
+.gamecreater {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.creater {
+  display: grid;
+  grid-template-rows: repeat(3, 10vw);
+  grid-template-columns: repeat(3, 10vw);
+  font-family: "Lora", serif;
+  position: relative;
+}
+.box {
+  border: 2px solid black;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 8vw;
+  cursor: pointer;
+}
+.gameinfo {
+  font-size: 20px;
+  padding: 20px 34px;
+  font-family: "Sedan SC", serif;
+}
+.info {
+  font-size: 20px;
+}
+.gameinfo h1 {
+  font-size: 3rem;
+}
+.imgb img {
+  width: 0;
+  transition: 1s width ease-in-out;
+}
+.bl-0 {
+  border-left: 0;
+}
+.bt-0 {
+  border-top: 0;
+}
+.br-0 {
+  border-right: 0;
+}
+.bb-0 {
+  border-bottom: 0;
+}
+.box:hover {
+  background-color: blanchedalmond;
+}
+.line {
+  background-color: black;
+  height: 3px;
+  width: 0;
+  transition: 1s width ease-in-out;
+  position: absolute;
+  background-color: blue;
+}
+@media screen and (max-width: 600px) {
+  .gamecreater {
+    flex-wrap: wrap;
+  }
+  .gameinfo h1 {
+    font-size: 2rem;
+  }
+  .gameinfo {
+    margin-top: 40px;
+  }
+  .creater {
+    grid-template-columns: repeat(3, 20vw);
+    grid-template-rows: repeat(3, 20vw);
+  }
+  .line {
+    height: 3px;
+  }
+}
+#reset {
+  margin: 0 20px;
+  padding: 1px 18px;
+  font-family: "Sedan SC", serif;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 16px;
+  background-color: beige;
+  cursor: pointer;
+}
+#reset:hover {
+  background-color: gray;
+  font-size: 2.5rem;
+}
+body {
+  background-color: #543310;
+}
