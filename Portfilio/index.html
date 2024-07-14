@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> - Developer portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">MD Isham's portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="#home" onclick="home">Home</a></li>
+            <li><a href="#projects" onclick="Project">Project</a></li>
+            <li><a href="#about" onclick="about">About</a></li>
+            <li><a href="#skill" onclick="skills">skills</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection" id="home">
+        <div class="leftsection">
+          Hi, My name is <span class="red">Mohammed Isham </span>
+          <div>and I am a passionate</div>
+
+          <span id="element"></span>
+        </div>
+        <hr />
+        <div class="summary">
+          <span id="summary"></span>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+              accusamus aliquid nihil unde sit velit ipsum minima architecto
+              corrupti, veritatis, facere autem dolores ad culpa deserunt ex
+              maxime consequuntur eaque harum magni odio accusantium praesentium
+              porro distinctio.34 Atque accusantium debitis, fugiat consectetur
+              mollitia voluptatibus modi.
+            </p>
+          </div>
+        </div>
+        <hr />
+        <div class="rightsection">
+          <img src="./rr.png.png" alt="Developer" />
+        </div>
+      </section>
+      <hr id="hr" />
+
+      <section class="secondsection" id="projects">
+        <div class="project">
+          <span id="project"></span>
+          <div class="div">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+              animi veniam ducimus nesciunt aliquam iure earum nobis, minus
+              maxime tempora obcaecati recusandae non autem numquam rerum?
+              Deleniti vitae culpa animi commodi ipsam rem voluptates.
+            </p>
+          </div>
+        </div>
+        <hr />
+        <div class="skill" id="skills">
+          <span id="skill"></span>
+          <div class="div1">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+              tempora, rem ut aperiam natus optio quod sunt voluptatum, minus
+              fuga beatae deserunt nobis veritatis non voluptates pariatur aut
+              totam quasi sint, harum deleniti nam.
+            </p>
+          </div>
+        </div>
+        <hr />
+        <div class="accomplishment" id="accomplish">
+          <span id="accomplishment"></span>
+          <div class="div2">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+              commodi rem sunt magni eum cupiditate omnis deserunt ducimus. Cum,
+              nihil nesciunt assumenda dolorum magnam fuga? Earum consectetur
+              voluptate suscipit beatae non molestias dolore facilis!
+            </p>
+          </div>
+        </div>
+      </section>
+      <hr id="id" />
+      <div class="about" id="about"><h1>about me</h1></div>
+      <section class="thirdsection">
+        <div class="background">
+          <span id="background"></span>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+              aliquid, tenetur veritatis dolorem temporibus autem corrupti qui
+              nam animi distinctio libero nemo ipsam quae! Vel id quibusdam
+              nulla incidunt ea dolorem molestias ipsum commodi?
+            </p>
+          </div>
+        </div>
+        <hr />
+        <div class="education">
+          <span id="education"></span>
+          <div>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum
+              excepturi quis maiores. Ipsam saepe veritatis minima, nobis
+              assumenda, laborum, reprehenderit ullam quibusdam nisi quia dolor
+              voluptatibus veniam maiores at repudiandae. Quidem porro tempore
+              inventore.
+            </p>
+          </div>
+        </div>
+        <hr />
+        <div class="experience">
+          <span id="experience"></span>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+              neque, dolor voluptates ducimus, amet debitis dolorum aspernatur
+              harum eligendi dolore tempora? Veniam, sint culpa non accusantium
+              placeat quibusdam odit, cupiditate quos eveniet tempore ratione.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./index.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Developer.",
+          "UI/UX Designer.",
+          "Graphic Designer.",
+          "Video Editor.",
+          "Full Stack Developer"
+        ],
+        typeSpeed: 42,
+      });
+      var typed = new Typed("#summary", {
+        strings: ["summary:"],
+        typeSpeed:48,
+      });
+      var typed = new Typed("#project", {
+        strings: ["project:"],
+        typeSpeed: 50,
+      });
+      var typed = new Typed("#skill", {
+        strings: ["skills:"],
+        typeSpeed: 50,
+      });
+      var typed = new Typed("#accomplishment", {
+        strings: ["accomplishments:"],
+        typeSpeed: 50,
+      });
+      var typed = new Typed("#skill", {
+        strings: ["skills:"],
+        typeSpeed: 50,
+      });
+      var typed = new Typed("#background", {
+        strings: ["background:"],
+        typeSpeed: 50,
+      });
+
+      var typed = new Typed("#education", {
+        strings: ["education:"],
+        typeSpeed: 50,
+      });
+
+      var typed = new Typed("#experience", {
+        strings: ["professional experience:"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>

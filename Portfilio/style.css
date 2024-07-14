@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sedan+SC&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* background-color: rgb(45, 17, 17); */
+  background-color: #570530;
+  color: whitesmoke;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: whitesmoke;
+  /* background-color:rgb(50, 34, 13); */
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+nav ul li a:hover {
+  /* color: rgb(194, 194, 235); */
+  color: goldenrod;
+  font-size: 1.05rem;
+}
+.left {
+  font-size: 1.5rem;
+  color: rgb(209, 177, 159);
+}
+
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  margin: 80px 0;
+}
+.firstsection > div {
+  width: 30%;
+}
+.leftsection {
+  font-size: 2.2rem;
+  color: rgb(1, 23, 23);
+  background-image: url();
+  background-size: cover;
+  background-position: center;
+}
+.leftsection:hover {
+  background-color: #DBAFA0;
+}
+.rightsection img {
+  width: 80%;
+}
+.rightsection:hover {
+  background-color: #DBAFA0;
+}
+/* main .rightsection :hover {
+  background-color: rgb(51, 32, 32);
+} */
+/* .rightsection,.leftsection:hover {
+  background-color: #ad340c;
+} */
+.summary {
+  font-size: 1.5rem;
+  color: rgb(190, 125, 125);
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.summary p {
+  color: antiquewhite;
+  margin: 34px;
+  justify-content: center;
+  text-transform: capitalize;
+}
+.summary:hover {
+  background-color: #DBAFA0;
+}
+#hr {
+  border: 0;
+  background-color: whitesmoke;
+  height: 1.2px;
+  margin: 40px 150px;
+}
+.red {
+  color: rgb(204, 17, 70);
+}
+#element {
+  color: rgb(204, 17, 70);
+}
+.secondsection {
+  display: flex;
+  justify-content: space-around;
+  margin: 80px 0;
+}
+.secondsection > div {
+  width: 30%;
+}
+.project {
+  font-size: 1.5rem;
+  color: rgb(190, 125, 125);
+  cursor: pointer;
+  margin: 34px;
+  text-transform: uppercase;
+}
+.skill {
+  font-size: 1.5rem;
+  color: rgb(190, 125, 125);
+  cursor: pointer;
+  margin: 34px;
+  text-transform: uppercase;
+}
+.accomplishment {
+  font-size: 1.5rem;
+  color: rgb(190, 125, 125);
+  cursor: pointer;
+  margin: 34px;
+  text-transform: uppercase;
+}
+.div {
+  margin: 34px;
+  color: antiquewhite;
+  justify-content: center;
+  text-transform: capitalize;
+}
+.div1 {
+  margin: 34px;
+  color: antiquewhite;
+  justify-content: center;
+  text-transform: capitalize;
+}
+.div2 {
+  margin: 34px;
+  color: antiquewhite;
+  justify-content: center;
+  text-transform: capitalize;
+}
+#id {
+  border: 0;
+  background-color: whitesmoke;
+  height: 1.2px;
+  margin: 40px 150px;
+}
+.about {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+.project:hover {
+  background-color: #DBAFA0;
+}
+.skill:hover {
+  background-color: #DBAFA0;
+}
+.accomplishment:hover {
+  background-color: #DBAFA0;
+}
+.about {
+  color: rgba(72, 183, 228, 0.353);
+}
+.thirdsection {
+  display: flex;
+  justify-content: space-around;
+  margin: 80px 0;
+}
+.thirdsection > div {
+  width: 30%;
+}
+
+.background {
+  font-size: 1.5rem;
+  color: rgb(190, 125, 125);
+  cursor: pointer;
+  margin: 34px;
+  text-transform: uppercase;
+}
+.education {
+  font-size: 1.5rem;
+  color: rgb(190, 125, 125);
+  cursor: pointer;
+  margin: 34px;
+  text-transform: uppercase;
+}
+.experience {
+  font-size: 1.5rem;
+  color: rgb(190, 125, 125);
+  cursor: pointer;
+  margin: 34px;
+  text-transform: uppercase;
+}
+.background p {
+  margin: 34px;
+  color: antiquewhite;
+  justify-content: center;
+  text-transform: capitalize;
+}
+.education p {
+  margin: 34px;
+  color: antiquewhite;
+  justify-content: center;
+  text-transform: capitalize;
+}
+.experience p {
+  margin: 34px;
+  color: antiquewhite;
+  justify-content: center;
+  text-transform: capitalize;
+}
+.background:hover {
+  background-color: #DBAFA0;
+}
+.education:hover {
+  background-color: #DBAFA0;
+}
+.experience:hover {
+  background-color: #DBAFA0;
+}
