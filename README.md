@@ -9,3 +9,11 @@ Task 3:<br>
 Tic-Tac-Toe Web Application <br>
 Task 4:<br>
 Personal Protfolio website
+TASK 5:<br>
+Currency Converter
+Task 6: <br>
+Create a Register form
+Task 7:
+Build a Login Page
+task 8:
+Calculator
