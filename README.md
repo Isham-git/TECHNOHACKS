@@ -8,12 +8,12 @@ Stop Watch Web Application <br>
 Task 3:<br>
 Tic-Tac-Toe Web Application <br>
 Task 4:<br>
-Personal Protfolio website
+Personal Protfolio website <br>
 TASK 5:<br>
-Currency Converter
+Currency Converter <br>
 Task 6: <br>
-Create a Register form
+Create a Register form <br>
 Task 7:<br>
-Build a Login Page
+Build a Login Page <br>
 task 8:<br>
-Calculator
+Calculator <br>
