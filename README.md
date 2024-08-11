@@ -13,7 +13,7 @@ TASK 5:<br>
 Currency Converter
 Task 6: <br>
 Create a Register form
-Task 7:
+Task 7:<br>
 Build a Login Page
-task 8:
+task 8:<br>
 Calculator
