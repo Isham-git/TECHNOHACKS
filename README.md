@@ -1,4 +1,4 @@
-# PRODIGY-INFOTECH
+# TECHNOHACKS
 A web development intership is a professional learning opporunity <br>
 to enchance experience of designing, buliding and making small web application. 
 TASK 1: <br>
